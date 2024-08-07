@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\crist\\Desktop\\microservicios\\ApiGateway\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5633D725-8528-498A-ACEA-7F04F29C6A77}|ApiGateway.API\\ApiGateway.API.csproj|c:\\users\\crist\\desktop\\microservicios\\apigateway\\apigateway.api\\controllers\\userservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5633D725-8528-498A-ACEA-7F04F29C6A77}|ApiGateway.API\\ApiGateway.API.csproj|solutionrelative:apigateway.api\\controllers\\userservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\ApiGateway\\ApiGateway.API\\Controllers\\UserServiceController.cs",
+              "RelativeDocumentMoniker": "ApiGateway.API\\Controllers\\UserServiceController.cs",
+              "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\ApiGateway\\ApiGateway.API\\Controllers\\UserServiceController.cs",
+              "RelativeToolTip": "ApiGateway.API\\Controllers\\UserServiceController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwEsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T02:14:55.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
