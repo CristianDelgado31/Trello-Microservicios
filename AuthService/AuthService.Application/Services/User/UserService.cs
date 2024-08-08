@@ -73,7 +73,7 @@ namespace AuthService.Application.Services.User
             var body = Encoding.UTF8.GetBytes(message);
 
             _channel.BasicPublish(exchange: "",
-                                routingKey: "userQueue",
+                                routingKey: "user_registration",
                                 basicProperties: null,
                                 body: body);
 

@@ -13,7 +13,7 @@ namespace AuthService.Infraestructure.RabbitMQ
                 var connection = factory.CreateConnection();
                 var channel = connection.CreateModel();
 
-                channel.QueueDeclare(queue: "userQueue",
+                channel.QueueDeclare(queue: "user_registration",
                                      durable: false,
                                      exclusive: false,
                                      autoDelete: false,

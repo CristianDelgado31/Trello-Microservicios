@@ -47,7 +47,7 @@ namespace UserService.API.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet("saludar")]
         [Authorize(Roles = "admin,user")]
         public IActionResult Saludar()
         {
@@ -67,6 +67,24 @@ namespace UserService.API.Controllers
                 Id = id,
                 //Claims = claims
             });
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "admin, user")]
+        public async Task<IActionResult> Get()
+        {
+            //Id lo saco del jwt token, el resto por la variable del parametro
+            var claims = User.Claims.Select(c => new
+            {
+                c.Type,
+                c.Value
+            }).ToList();
+
+            var searchId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+            var id = int.Parse(searchId);
+
+            var user = await _userService.GetUser(id);
+            return Ok(user);
         }
     }
 }

@@ -9,7 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UserService.Domain.Entities;
-//using UserService.Domain.Interfaces;
 using UserService.Domain.Repository;
 using UserService.Infraestructure.Consumer;
 
@@ -40,7 +39,7 @@ namespace UserService.Application.Services
                 await ProcessMessageAsync(message);
             };
 
-            _channel.BasicConsume(queue: "userQueue",
+            _channel.BasicConsume(queue: "user_registration",
                                   autoAck: true,
                                   consumer: consumer);
 

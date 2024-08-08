@@ -17,3 +17,4 @@ C:\Users\crist\Desktop\microservicios\UserService\UserService.Infraestructure\ob
 C:\Users\crist\Desktop\microservicios\UserService\UserService.Infraestructure\obj\Debug\net8.0\ref\UserService.Infraestructure.dll
 C:\Users\crist\Desktop\microservicios\UserService\UserService.Infraestructure\bin\Debug\net8.0\UserService.Application.dll
 C:\Users\crist\Desktop\microservicios\UserService\UserService.Infraestructure\bin\Debug\net8.0\UserService.Application.pdb
+C:\Users\crist\Desktop\microservicios\UserService\UserService.Infraestructure\obj\Debug\net8.0\UserService.Infraestructure.sourcelink.json

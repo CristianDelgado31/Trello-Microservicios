@@ -16,7 +16,7 @@ namespace UserService.Infraestructure.RabbitMQConsumer
             var channel = connection.CreateModel();
 
             // Declara la cola para recibir mensajes
-            channel.QueueDeclare(queue: "userQueue",
+            channel.QueueDeclare(queue: "user_registration",
                                  durable: false,
                                  exclusive: false,
                                  autoDelete: false,

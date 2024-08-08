@@ -13,3 +13,4 @@ C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Application\obj\De
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Application\obj\Debug\net8.0\refint\AuthService.Application.dll
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Application\obj\Debug\net8.0\AuthService.Application.pdb
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Application\obj\Debug\net8.0\ref\AuthService.Application.dll
+C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Application\obj\Debug\net8.0\AuthService.Application.sourcelink.json

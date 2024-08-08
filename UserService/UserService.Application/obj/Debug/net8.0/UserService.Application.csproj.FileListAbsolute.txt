@@ -13,3 +13,4 @@ C:\Users\crist\Desktop\microservicios\UserService\UserService.Application\obj\De
 C:\Users\crist\Desktop\microservicios\UserService\UserService.Application\bin\Debug\net8.0\UserService.Domain.dll
 C:\Users\crist\Desktop\microservicios\UserService\UserService.Application\bin\Debug\net8.0\UserService.Domain.pdb
 C:\Users\crist\Desktop\microservicios\UserService\UserService.Application\obj\Debug\net8.0\UserServ.9A0DA653.Up2Date
+C:\Users\crist\Desktop\microservicios\UserService\UserService.Application\obj\Debug\net8.0\UserService.Application.sourcelink.json

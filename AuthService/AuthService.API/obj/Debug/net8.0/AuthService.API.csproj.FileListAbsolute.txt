@@ -151,3 +151,4 @@ C:\Users\crist\Desktop\microservicios\AuthService\AuthService.API\bin\Debug\net8
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.API\bin\Debug\net8.0\AuthService.Application.pdb
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\crist\Desktop\microservicios\AuthService\AuthService.API\obj\Debug\net8.0\AuthService.API.sourcelink.json

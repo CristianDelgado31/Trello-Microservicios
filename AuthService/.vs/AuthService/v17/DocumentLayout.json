@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BBB8B4C-6269-48FB-8B1F-A302E093DB49}|AuthService.Infraestructure\\AuthService.Infraestructure.csproj|c:\\users\\crist\\desktop\\microservicios\\authservice\\authservice.infraestructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBB8B4C-6269-48FB-8B1F-A302E093DB49}|AuthService.Infraestructure\\AuthService.Infraestructure.csproj|solutionrelative:authservice.infraestructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BBB8B4C-6269-48FB-8B1F-A302E093DB49}|AuthService.Infraestructure\\AuthService.Infraestructure.csproj|c:\\users\\crist\\desktop\\microservicios\\authservice\\authservice.infraestructure\\rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBB8B4C-6269-48FB-8B1F-A302E093DB49}|AuthService.Infraestructure\\AuthService.Infraestructure.csproj|solutionrelative:authservice.infraestructure\\rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3C5E8C0-2C22-4EB6-AEA9-8EE9537B6614}|AuthService.Application\\AuthService.Application.csproj|c:\\users\\crist\\desktop\\microservicios\\authservice\\authservice.application\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3C5E8C0-2C22-4EB6-AEA9-8EE9537B6614}|AuthService.Application\\AuthService.Application.csproj|solutionrelative:authservice.application\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3C5E8C0-2C22-4EB6-AEA9-8EE9537B6614}|AuthService.Application\\AuthService.Application.csproj|c:\\users\\crist\\desktop\\microservicios\\authservice\\authservice.application\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3C5E8C0-2C22-4EB6-AEA9-8EE9537B6614}|AuthService.Application\\AuthService.Application.csproj|C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\authservice.application\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3C5E8C0-2C22-4EB6-AEA9-8EE9537B6614}|AuthService.Application\\AuthService.Application.csproj|solutionrelative:authservice.application\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BBB8B4C-6269-48FB-8B1F-A302E093DB49}|AuthService.Infraestructure\\AuthService.Infraestructure.csproj|c:\\users\\crist\\desktop\\microservicios\\authservice\\authservice.infraestructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BBB8B4C-6269-48FB-8B1F-A302E093DB49}|AuthService.Infraestructure\\AuthService.Infraestructure.csproj|C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\authservice.infraestructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BBB8B4C-6269-48FB-8B1F-A302E093DB49}|AuthService.Infraestructure\\AuthService.Infraestructure.csproj|solutionrelative:authservice.infraestructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3C5E8C0-2C22-4EB6-AEA9-8EE9537B6614}|AuthService.Application\\AuthService.Application.csproj|C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\authservice.application\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3C5E8C0-2C22-4EB6-AEA9-8EE9537B6614}|AuthService.Application\\AuthService.Application.csproj|solutionrelative:authservice.application\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1329D85B-5B11-4B5E-8F8E-F33B784201B9}|AuthService.API\\AuthService.API.csproj|C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\authservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,51 +43,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Infraestructure\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "AuthService.Infraestructure\\ConfigureServices.cs",
-              "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Infraestructure\\ConfigureServices.cs",
-              "RelativeToolTip": "AuthService.Infraestructure\\ConfigureServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Title": "RabbitMqService.cs",
+              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Infraestructure\\RabbitMQ\\RabbitMqService.cs",
+              "RelativeDocumentMoniker": "AuthService.Infraestructure\\RabbitMQ\\RabbitMqService.cs",
+              "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Infraestructure\\RabbitMQ\\RabbitMqService.cs",
+              "RelativeToolTip": "AuthService.Infraestructure\\RabbitMQ\\RabbitMqService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:33:15.424Z",
+              "WhenOpened": "2024-08-07T23:57:22.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Infraestructure\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "AuthService.Infraestructure\\Repository\\UserRepository.cs",
               "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Infraestructure\\Repository\\UserRepository.cs",
               "RelativeToolTip": "AuthService.Infraestructure\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwEEAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T19:29:00.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Application\\Services\\Worker.cs",
               "RelativeDocumentMoniker": "AuthService.Application\\Services\\Worker.cs",
               "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Application\\Services\\Worker.cs",
               "RelativeToolTip": "AuthService.Application\\Services\\Worker.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAkwCUAAAA3AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCUAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T18:55:39.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Application\\Services\\User\\UserService.cs",
               "RelativeDocumentMoniker": "AuthService.Application\\Services\\User\\UserService.cs",
               "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\AuthService\\AuthService.Application\\Services\\User\\UserService.cs",
               "RelativeToolTip": "AuthService.Application\\Services\\User\\UserService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowE4AAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwD8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T04:04:21.286Z",
               "EditorCaption": ""

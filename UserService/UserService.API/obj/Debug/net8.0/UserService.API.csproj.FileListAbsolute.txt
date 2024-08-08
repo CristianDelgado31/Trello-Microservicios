@@ -145,3 +145,4 @@ C:\Users\crist\Desktop\microservicios\UserService\UserService.API\bin\Debug\net8
 C:\Users\crist\Desktop\microservicios\UserService\UserService.API\bin\Debug\net8.0\UserService.Application.dll
 C:\Users\crist\Desktop\microservicios\UserService\UserService.API\bin\Debug\net8.0\UserService.Application.pdb
 C:\Users\crist\Desktop\microservicios\UserService\UserService.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\crist\Desktop\microservicios\UserService\UserService.API\obj\Debug\net8.0\UserService.API.sourcelink.json

@@ -85,3 +85,4 @@ C:\Users\crist\Desktop\microservicios\ApiGateway\ApiGateway.API\obj\Debug\net8.0
 C:\Users\crist\Desktop\microservicios\ApiGateway\ApiGateway.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\crist\Desktop\microservicios\ApiGateway\ApiGateway.API\bin\Debug\net8.0\ApiGateway.Application.dll
 C:\Users\crist\Desktop\microservicios\ApiGateway\ApiGateway.API\bin\Debug\net8.0\ApiGateway.Application.pdb
+C:\Users\crist\Desktop\microservicios\ApiGateway\ApiGateway.API\obj\Debug\net8.0\ApiGateway.API.sourcelink.json

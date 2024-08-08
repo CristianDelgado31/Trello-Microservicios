@@ -22,6 +22,12 @@ namespace UserService.Application.Services
             _channel = channel;
         }
 
+        public async Task<GetUserDto> GetUser(int idAuth)
+        {
+            var user = await _userRepository.GetUserById(idAuth);
+            return new GetUserDto(user.Id, user.Username!, user.Email!, user.Password!, user.Role!, user.IdAuth);
+        }
+
         public async Task<bool> UpdateUser(UserUpdateDto updatedUser, int idAuth)
         {
             var user = new User();
@@ -30,7 +36,6 @@ namespace UserService.Application.Services
             user.Username = updatedUser.Username;
             user.Email = updatedUser.Email;
             user.Password = updatedUser.Password;
-            //user.Role = updatedUser.Role;
             user.IdAuth = idAuth;
 
             user = await _userRepository.UpdateUser(user); // Actualiza los datos del usuario en la base de datos

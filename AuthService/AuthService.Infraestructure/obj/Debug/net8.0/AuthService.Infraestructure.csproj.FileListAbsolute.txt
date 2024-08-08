@@ -17,3 +17,4 @@ C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Infraestructure\ob
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Infraestructure\obj\Debug\net8.0\ref\AuthService.Infraestructure.dll
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Infraestructure\bin\Debug\net8.0\AuthService.Application.dll
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Infraestructure\bin\Debug\net8.0\AuthService.Application.pdb
+C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Infraestructure\obj\Debug\net8.0\AuthService.Infraestructure.sourcelink.json

@@ -11,5 +11,6 @@ namespace UserService.Domain.Repository
     public interface IUserService
     {
         Task<bool> UpdateUser(UserUpdateDto user, int idAuth);
+        Task<GetUserDto> GetUser(int idAuth);
     }
 }

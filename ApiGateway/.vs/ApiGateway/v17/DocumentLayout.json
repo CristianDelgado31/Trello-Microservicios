@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5633D725-8528-498A-ACEA-7F04F29C6A77}|ApiGateway.API\\ApiGateway.API.csproj|c:\\users\\crist\\desktop\\microservicios\\apigateway\\apigateway.api\\controllers\\userservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5633D725-8528-498A-ACEA-7F04F29C6A77}|ApiGateway.API\\ApiGateway.API.csproj|solutionrelative:apigateway.api\\controllers\\userservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5633D725-8528-498A-ACEA-7F04F29C6A77}|ApiGateway.API\\ApiGateway.API.csproj|c:\\users\\crist\\desktop\\microservicios\\apigateway\\apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5633D725-8528-498A-ACEA-7F04F29C6A77}|ApiGateway.API\\ApiGateway.API.csproj|solutionrelative:apigateway.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\ApiGateway\\ApiGateway.API\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway.API\\Program.cs",
+              "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\ApiGateway\\ApiGateway.API\\Program.cs",
+              "RelativeToolTip": "ApiGateway.API\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T00:17:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserServiceController.cs",
               "DocumentMoniker": "C:\\Users\\crist\\Desktop\\microservicios\\ApiGateway\\ApiGateway.API\\Controllers\\UserServiceController.cs",
               "RelativeDocumentMoniker": "ApiGateway.API\\Controllers\\UserServiceController.cs",
               "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\ApiGateway\\ApiGateway.API\\Controllers\\UserServiceController.cs",
               "RelativeToolTip": "ApiGateway.API\\Controllers\\UserServiceController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwEsAAAANAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAUwGIAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T02:14:55.445Z",
               "EditorCaption": ""
