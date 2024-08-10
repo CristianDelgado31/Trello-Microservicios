@@ -9,3 +9,4 @@ C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Domain\obj\Debug\n
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Domain\obj\Debug\net8.0\refint\AuthService.Domain.dll
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.pdb
 C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Domain\obj\Debug\net8.0\ref\AuthService.Domain.dll
+C:\Users\crist\Desktop\microservicios\AuthService\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.sourcelink.json

@@ -1,6 +1,6 @@
 ﻿using AuthService.Application.Models;
 using AuthService.Application.Models.SignIn;
-using AuthService.Application.Services;
+using AuthService.Application.Services.User;
 using AuthService.Domain.Entities;
 using AuthService.Infraestructure.Security;
 using IdentityModel;

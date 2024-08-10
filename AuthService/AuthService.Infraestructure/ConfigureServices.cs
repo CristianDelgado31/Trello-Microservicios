@@ -24,6 +24,12 @@ namespace AuthService.Infraestructure
             // Configura RabbitMQ
             services.AddSingleton<IModel>(RabbitMqService.CreateChannel());
 
+            //Redis
+            services.AddTransient<IUserCacheRepository, UserCacheRepository>();
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = "localhost";
+            });
 
             return services;
         }

@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\crist\\Desktop\\microservicios\\UserService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|C:\\Users\\crist\\Desktop\\microservicios\\UserService\\userservice.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|c:\\users\\crist\\desktop\\microservicios\\userservice\\userservice.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|solutionrelative:userservice.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|c:\\users\\crist\\desktop\\microservicios\\userservice\\userservice.application\\dto\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|C:\\Users\\crist\\Desktop\\microservicios\\UserService\\userservice.application\\dto\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|solutionrelative:userservice.application\\dto\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{199B3E8A-84A8-40A8-9F11-C34C17D25902}|UserService.API\\UserService.API.csproj|c:\\users\\crist\\desktop\\microservicios\\userservice\\userservice.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{199B3E8A-84A8-40A8-9F11-C34C17D25902}|UserService.API\\UserService.API.csproj|C:\\Users\\crist\\Desktop\\microservicios\\UserService\\userservice.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{199B3E8A-84A8-40A8-9F11-C34C17D25902}|UserService.API\\UserService.API.csproj|solutionrelative:userservice.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|c:\\users\\crist\\desktop\\microservicios\\userservice\\userservice.application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|C:\\Users\\crist\\Desktop\\microservicios\\UserService\\userservice.application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|solutionrelative:userservice.application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{199B3E8A-84A8-40A8-9F11-C34C17D25902}|UserService.API\\UserService.API.csproj|c:\\users\\crist\\desktop\\microservicios\\userservice\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{199B3E8A-84A8-40A8-9F11-C34C17D25902}|UserService.API\\UserService.API.csproj|C:\\Users\\crist\\Desktop\\microservicios\\UserService\\userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{199B3E8A-84A8-40A8-9F11-C34C17D25902}|UserService.API\\UserService.API.csproj|solutionrelative:userservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{68BED3F6-07A8-4203-929F-1725B993A996}|UserService.Infraestructure\\UserService.Infraestructure.csproj|solutionrelative:userservice.infraestructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68BED3F6-07A8-4203-929F-1725B993A996}|UserService.Infraestructure\\UserService.Infraestructure.csproj|c:\\users\\crist\\desktop\\microservicios\\userservice\\userservice.infraestructure\\rabbitmqconsumer\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68BED3F6-07A8-4203-929F-1725B993A996}|UserService.Infraestructure\\UserService.Infraestructure.csproj|C:\\Users\\crist\\Desktop\\microservicios\\UserService\\userservice.infraestructure\\rabbitmqconsumer\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68BED3F6-07A8-4203-929F-1725B993A996}|UserService.Infraestructure\\UserService.Infraestructure.csproj|solutionrelative:userservice.infraestructure\\rabbitmqconsumer\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|c:\\users\\crist\\desktop\\microservicios\\userservice\\userservice.application\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|C:\\Users\\crist\\Desktop\\microservicios\\UserService\\userservice.application\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE860CB1-12A1-41DA-BE33-103492A276B9}|UserService.Application\\UserService.Application.csproj|solutionrelative:userservice.application\\services\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,8 +62,7 @@
               "RelativeToolTip": "UserService.Application\\Services\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T00:29:25.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T00:29:25.741Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "UserService.Application\\dto\\GetUserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T00:28:39.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T00:28:39.521Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "UserService.API\\Program.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T00:16:35.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T00:16:35.467Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "UserService.Application\\Services\\Worker.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAgwCkAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:58:25.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T23:58:25.562Z"
             },
             {
               "$type": "Document",
@@ -114,8 +110,7 @@
               "RelativeToolTip": "UserService.Infraestructure\\RabbitMQConsumer\\RabbitMqService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:58:20.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T23:58:20.034Z"
             },
             {
               "$type": "Document",
@@ -127,8 +122,7 @@
               "RelativeToolTip": "UserService.API\\Controllers\\UserController.cs",
               "ViewState": "AQIAADcAAAAAAAAAAADwv1YAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T18:53:48.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T18:53:48.638Z"
             },
             {
               "$type": "Document",
@@ -138,7 +132,7 @@
               "RelativeDocumentMoniker": "UserService.Application\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\crist\\Desktop\\microservicios\\UserService\\UserService.Application\\Services\\UserService.cs",
               "RelativeToolTip": "UserService.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAewBUAAAAfAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAewCgAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T18:18:19.928Z",
               "EditorCaption": ""
@@ -153,8 +147,7 @@
               "RelativeToolTip": "UserService.Infraestructure\\Repository\\UserRepository.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAwwCIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T20:44:08.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T20:44:08.839Z"
             }
           ]
         }

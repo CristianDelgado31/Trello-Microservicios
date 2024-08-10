@@ -8,7 +8,6 @@ namespace AuthService.Application
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
-            //services.AddScoped<IUserService, UserService>(); // como estaba antes
             services.AddScoped<IUserService, UserService>();
             services.AddHostedService<Worker>();
 
