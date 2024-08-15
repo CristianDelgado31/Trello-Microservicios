@@ -20,7 +20,7 @@ namespace AuthService.Infraestructure
                 );
                 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             // Configura RabbitMQ
             services.AddSingleton<IModel>(RabbitMqService.CreateChannel());
 

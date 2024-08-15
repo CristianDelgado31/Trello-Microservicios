@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "BoardService.API.Controllers.BoardController",
+    "Method": "GetBoards",
+    "RelativePath": "api/Board",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardService.API.Controllers.BoardController",
+    "Method": "CreateBoard",
+    "RelativePath": "api/Board",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newBoard",
+        "Type": "BoardService.Application.Board.dto.CreateBoardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardService.API.Controllers.TaskController",
+    "Method": "CreateTask",
+    "RelativePath": "api/Task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTask",
+        "Type": "BoardService.Application.Task.Dto.CreateTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardService.API.Controllers.TaskListController",
+    "Method": "CreateTaskList",
+    "RelativePath": "api/TaskList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTaskList",
+        "Type": "BoardService.Application.TaskList.dto.CreateTaskListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

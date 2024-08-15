@@ -1,0 +1,16 @@
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\bin\Debug\net8.0\BoardService.Infraestructure.deps.json
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\bin\Debug\net8.0\BoardService.Infraestructure.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\bin\Debug\net8.0\BoardService.Infraestructure.pdb
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\bin\Debug\net8.0\BoardService.Domain.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\bin\Debug\net8.0\BoardService.Domain.pdb
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.AssemblyInfo.cs
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.sourcelink.json
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardSer.7AD4D114.Up2Date
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\refint\BoardService.Infraestructure.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\BoardService.Infraestructure.pdb
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Infraestructure\obj\Debug\net8.0\ref\BoardService.Infraestructure.dll

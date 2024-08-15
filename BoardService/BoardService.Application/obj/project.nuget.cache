@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gpGPTfSlw4A=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\crist\\Desktop\\microservicios\\BoardService\\BoardService.Application\\BoardService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

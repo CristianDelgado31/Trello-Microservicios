@@ -1061,12 +1061,18 @@
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
-          "AuthService.Application.dll": {}
+          "AuthService.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AuthService.Domain/1.0.0": {
         "runtime": {
-          "AuthService.Domain.dll": {}
+          "AuthService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AuthService.Infraestructure/1.0.0": {
@@ -1079,7 +1085,10 @@
           "Microsoft.Extensions.Caching.StackExchangeRedis": "8.0.7"
         },
         "runtime": {
-          "AuthService.Infraestructure.dll": {}
+          "AuthService.Infraestructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

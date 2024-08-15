@@ -1,0 +1,16 @@
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\bin\Debug\net8.0\BoardService.Application.deps.json
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\bin\Debug\net8.0\BoardService.Application.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\bin\Debug\net8.0\BoardService.Application.pdb
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\bin\Debug\net8.0\BoardService.Domain.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\bin\Debug\net8.0\BoardService.Domain.pdb
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.csproj.AssemblyReference.cache
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.AssemblyInfoInputs.cache
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.AssemblyInfo.cs
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.csproj.CoreCompileInputs.cache
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.sourcelink.json
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardSer.8E758F5A.Up2Date
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\refint\BoardService.Application.dll
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\BoardService.Application.pdb
+C:\Users\crist\Desktop\microservicios\BoardService\BoardService.Application\obj\Debug\net8.0\ref\BoardService.Application.dll
