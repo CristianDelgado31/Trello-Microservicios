@@ -33,7 +33,7 @@ namespace BoardService.Infraestructure.Repository
             return board;
         }
 
-        public async Task<List<Board>> GetBoards(int id) // id auth
+        public async Task<List<Board>> GetBoards(int id, bool flag) // id auth - si flag es true, se obtienen los tableros con sus listas de tareas
         {
             List<Board> boards = new List<Board>();
             using (SqlConnection connection = new SqlConnection(_connections.SQLChain))
@@ -55,8 +55,10 @@ namespace BoardService.Infraestructure.Repository
                                 TaskLists = []
                             };
 
-                            // Testear
-                            board.TaskLists = await _taskListRepository.GetTaskLists(board.Id); //
+                            if (flag)
+                            {
+                                board.TaskLists = await _taskListRepository.GetTaskLists(board.Id, true);
+                            }
 
                             boards.Add(board);
                         }
@@ -67,6 +69,49 @@ namespace BoardService.Infraestructure.Repository
             return boards;
         }
 
+        public async Task<Board?> SearchBoard(int id)
+        {
+            Board? board = null;
+            using (SqlConnection connection = new SqlConnection(_connections.SQLChain))
+            {
+                await connection.OpenAsync();
+                using (SqlCommand command = new SqlCommand("SELECT * FROM Boards WHERE Id = @Id", connection))
+                {
+                    command.Parameters.AddWithValue("@Id", id);
+
+                    using (SqlDataReader reader = await command.ExecuteReaderAsync())
+                    {
+                        if (await reader.ReadAsync())
+                        {
+                            board = new Board
+                            {
+                                Id = reader.GetInt32(0),
+                                Name = reader.GetString(1),
+                                IdAuth = reader.GetInt32(2) // Asegúrate de que esta columna exista en la tabla "Boards"
+                            };
+                        }
+                    }
+                }
+            }
+
+            return board;
+        }
+
+        public async Task<Board> UpdateBoard(Board board)
+        {
+            using (SqlConnection connection = new SqlConnection(_connections.SQLChain))
+            {
+                await connection.OpenAsync();
+                using (SqlCommand command = new SqlCommand("UPDATE Boards SET Names = @Name WHERE Id = @Id", connection))
+                {
+                    command.Parameters.AddWithValue("@Name", board.Name);
+                    command.Parameters.AddWithValue("@Id", board.Id);
+
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+            return board;
+        }
 
     }
 }

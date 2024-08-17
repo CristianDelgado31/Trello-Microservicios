@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BoardService.API.Controllers.BoardController",
+    "Method": "UpdateBoard",
+    "RelativePath": "api/Board",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateBoardDto",
+        "Type": "BoardService.Application.Board.dto.update.UpdateBoardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BoardService.API.Controllers.TaskController",
     "Method": "CreateTask",
     "RelativePath": "api/Task",
@@ -35,7 +51,23 @@
     "Parameters": [
       {
         "Name": "newTask",
-        "Type": "BoardService.Application.Task.Dto.CreateTaskDto",
+        "Type": "BoardService.Application.Task.Dto.Create.CreateTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardService.API.Controllers.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/Task",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateTask",
+        "Type": "BoardService.Application.Task.Dto.Update.UpdateTaskDto",
         "IsRequired": true
       }
     ],
@@ -51,7 +83,23 @@
     "Parameters": [
       {
         "Name": "newTaskList",
-        "Type": "BoardService.Application.TaskList.dto.CreateTaskListDto",
+        "Type": "BoardService.Application.TaskList.dto.create.CreateTaskListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardService.API.Controllers.TaskListController",
+    "Method": "UpdateTaskList",
+    "RelativePath": "api/TaskList",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateTaskList",
+        "Type": "BoardService.Application.TaskList.dto.update.UpdateTaskList",
         "IsRequired": true
       }
     ],

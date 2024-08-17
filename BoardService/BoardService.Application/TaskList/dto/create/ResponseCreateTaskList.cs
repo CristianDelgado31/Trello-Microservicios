@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoardService.Application.TaskList.dto
+namespace BoardService.Application.TaskList.dto.create
 {
     public class ResponseCreateTaskList
     {

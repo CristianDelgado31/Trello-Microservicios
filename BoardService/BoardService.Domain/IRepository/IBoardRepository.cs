@@ -9,8 +9,9 @@ namespace BoardService.Domain.IRepository
 {
     public interface IBoardRepository
     {
-        Task<List<Board>> GetBoards(int id);
-
+        Task<List<Board>> GetBoards(int id, bool flag);
         Task<Board> CreateBoard(Board board);
+        Task<Board> UpdateBoard(Board board);
+        Task<Board?> SearchBoard(int id);
     }
 }

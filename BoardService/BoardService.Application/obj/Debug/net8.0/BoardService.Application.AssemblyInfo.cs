@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoardService.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba8e70dc70fb0afa3ffddb1cfd154f0b5c6c9113")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+111d017612eefc21c315ef146dbec516a25a2575")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoardService.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoardService.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

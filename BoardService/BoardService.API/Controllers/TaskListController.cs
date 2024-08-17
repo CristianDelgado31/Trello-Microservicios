@@ -1,5 +1,6 @@
 ﻿using BoardService.Application.TaskList;
-using BoardService.Application.TaskList.dto;
+using BoardService.Application.TaskList.dto.create;
+using BoardService.Application.TaskList.dto.update;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,25 @@ namespace BoardService.API.Controllers
                 return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
             }
 
+        }
+
+        [HttpPut]
+        [Authorize(Roles = "admin, user")]
+        public async Task<IActionResult> UpdateTaskList(UpdateTaskList updateTaskList)
+        {
+            try
+            {
+                ResponseUpdateTaskList result = await _taskListService.UpdateTaskList(updateTaskList);
+                return StatusCode(StatusCodes.Status200OK, result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, new ResponseUpdateTaskList
+                {
+                    Success = false,
+                    Message = ex.Message
+                });
+            }
         }
     }
 }

@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BoardService.Application.Task.Dto
+namespace BoardService.Application.TaskList.dto.update
 {
-    public class ResponseCreateTask
+    public class UpdateTaskList
     {
         public int Id { get; set; }
+        public string Name { get; set; }
+        public int IdBoard { get; set; }
     }
 }

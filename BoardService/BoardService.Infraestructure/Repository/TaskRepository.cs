@@ -61,5 +61,52 @@ namespace BoardService.Infraestructure.Repository
             }
             return tasks;
         }
+
+        public async Task<Domain.Entities.Task?> SearchTask(int id, int TaskListId)
+        {
+            Domain.Entities.Task? task = null;
+
+            using (SqlConnection connection = new SqlConnection(_connections.SQLChain))
+            {
+                await connection.OpenAsync();
+
+                using (SqlCommand command = new SqlCommand("SELECT * FROM Tasks WHERE Id = @Id AND Id_ToDo_List = @IdTaskList", connection))
+                {
+                    command.Parameters.AddWithValue("Id", id);
+                    command.Parameters.AddWithValue("IdTaskList", TaskListId);
+
+                    using (SqlDataReader reader = await command.ExecuteReaderAsync())
+                    {
+                        if (await reader.ReadAsync())
+                        {
+                            task = new Domain.Entities.Task()
+                            {
+                                Id = reader.GetInt32(0),
+                                Name = reader.GetString(1),
+                                Description = reader.GetString(2),
+                                IdTaskList = reader.GetInt32(3)
+                            };
+                        }
+                    }
+                }
+            }
+            return task;
+        }
+
+        public async Task<Domain.Entities.Task> UpdateTask(Domain.Entities.Task task)
+        {
+            using (SqlConnection connection = new SqlConnection(_connections.SQLChain))
+            {
+                await connection.OpenAsync();
+                using (SqlCommand command = new SqlCommand("UPDATE Tasks SET Names = @Name, Descriptions = @Description WHERE Id = @Id", connection))
+                {
+                    command.Parameters.AddWithValue("Name", task.Name);
+                    command.Parameters.AddWithValue("Description", task.Description);
+                    command.Parameters.AddWithValue("Id", task.Id);
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+            return task;
+        }
     }
 }

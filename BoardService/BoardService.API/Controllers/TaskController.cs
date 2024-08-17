@@ -1,5 +1,6 @@
 ﻿using BoardService.Application.Task;
-using BoardService.Application.Task.Dto;
+using BoardService.Application.Task.Dto.Create;
+using BoardService.Application.Task.Dto.Update;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +30,26 @@ namespace BoardService.API.Controllers
             catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
+        }
+
+
+        [HttpPut]
+        [Authorize(Roles = "admin, user")]
+        public async Task<IActionResult> UpdateTask(UpdateTaskDto updateTask)
+        {
+            try
+            {
+                ResponseUpdateTask result = await _taskService.UpdateTask(updateTask);
+                return StatusCode(StatusCodes.Status200OK, result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, new ResponseUpdateTask
+                {
+                    Success = false,
+                    Message = ex.Message
+                });
             }
         }
     }

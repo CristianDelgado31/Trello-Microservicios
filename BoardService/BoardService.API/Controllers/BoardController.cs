@@ -1,5 +1,6 @@
 ﻿using BoardService.Application.Board;
 using BoardService.Application.Board.dto;
+using BoardService.Application.Board.dto.update;
 using BoardService.Domain.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -57,6 +58,34 @@ namespace BoardService.API.Controllers
             catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        [Authorize(Roles = "admin, user")]
+        public async Task<IActionResult> UpdateBoard(UpdateBoardDto updateBoardDto)
+        {
+            var claims = User.Claims.Select(c => new
+            {
+                c.Type,
+                c.Value
+            }).ToList();
+
+            var searchId = User.Claims.FirstOrDefault(c => c.Type == "id")?.Value;
+            var id = int.Parse(searchId!);
+
+            try
+            {
+                ResponseUpdateBoard result = await _boardService.UpdateBoard(updateBoardDto, id);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, new ResponseUpdateBoard
+                {
+                    Success = false,
+                    Message = ex.Message
+                });
             }
         }
     }

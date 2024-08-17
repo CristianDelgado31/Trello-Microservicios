@@ -1,4 +1,5 @@
 ﻿using BoardService.Application.Board.dto;
+using BoardService.Application.Board.dto.update;
 
 namespace BoardService.Application.Board
 {
@@ -6,5 +7,6 @@ namespace BoardService.Application.Board
     {
         Task<List<Domain.Entities.Board>> GetBoards(int id);
         Task<CreateBoardResponseDto> CreateBoard(CreateBoardDto createBoardDto, int id);
+        Task<ResponseUpdateBoard> UpdateBoard(UpdateBoardDto updateBoardDto, int id);
     }
 }
